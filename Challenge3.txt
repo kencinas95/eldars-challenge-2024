@@ -1,0 +1,1 @@
+Se utiliza un patrón observador. En cuanto haya un cambio, se notifican a los demás del mismo (se envía la nueva imagen).

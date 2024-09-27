@@ -1,0 +1,5 @@
+insert into EX_CUSTOMER(DOC_NUMBER, FIRSTNAME, SURNAME, DOB, EMAIL)
+values (39185096, 'Kevin', 'Encinas', '1995-06-16', 'kevin.encinas@mail.com');
+
+insert into EX_CARD(CARD_NUMBER, BRAND_NAME, EXPIRATION_DT, HOLDER, CVV)
+values (4600123400003529, 'VISA', '2026-04-10', 39185096, '$2b$12$GmpOQRFBffOTFQrSq8wtcOc.e.yCdOeYJoTIZZ0wyjbUgcOB2VLoS');

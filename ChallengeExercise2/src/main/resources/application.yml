@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: challenge-2
+
+  datasource:
+    url: jdbc:h2:mem:challenge
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+    initialization-mode: always
+
+  h2:
+    console:
+      path: /h2console
+      enabled: true
+      settings:
+        trace: false
+
+  jpa:
+    open-in-view: true
+    generate-dll: true
+    defer-datasource-initialization: true
+    properties:
+      hibernate.hbm2dll.auto: create
+    database-platform: org.hibernate.dialect.H2Dialect
+
+server:
+  port: 8080
